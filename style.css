@@ -110,8 +110,6 @@ body
     position: relative;
     top: 80px;
     left: 350px;
-    
-
 }
 
 .Text 
@@ -200,6 +198,8 @@ body
 {
     #headerImage 
     {
+        position: absolute;
+        left: 250px;
         height: 100px;
         width: 100px;
     }
@@ -216,8 +216,10 @@ body
         padding: 8px 15px;
     }
 
-    #headerText, #headerSubText 
+    #headerText
     {
+        position: absolute;
+        left: 500px;
         font-size: 14px;
     }
 
